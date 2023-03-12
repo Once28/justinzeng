@@ -1,23 +1,14 @@
 {
-  "name": "justinzeng",
-  "version": "1.0.0",
-  "description": "My Personal Website",
-  "main": "app.js",
+  "name": "justinswebsite",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "npm start"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Once28/justinzeng.git"
-  },
-  "author": "Justin Zeng",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Once28/justinzeng/issues"
-  },
-  "homepage": "https://github.com/Once28/justinzeng#readme",
   "dependencies": {
-    "express": "^4.18.1",
-    "live-server": "^1.2.2"
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "morgan": "~1.9.1"
   }
 }
